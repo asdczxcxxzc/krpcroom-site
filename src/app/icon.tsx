@@ -23,7 +23,7 @@ export default function Icon() {
           fontFamily: 'system-ui, sans-serif'
         }}
       >
-        KR
+        MY
       </div>
     ),
     size

@@ -1,11 +1,11 @@
 {
   "meta": {
-    "siteName": "KR PC ROOM",
-    "defaultTitle": "KR PC ROOM — Korean PC-bang benefits at home",
-    "titleTemplate": "%s | KR PC ROOM",
-    "description": "Apply 100% Korean PC-bang game benefits on your own PC. Supports League of Legends, Valorant, Lost Ark, PUBG, Diablo IV, Mabinogi, Throne and Liberty and 40+ popular Korean titles. Fast Telegram support.",
-    "keywords": "PC-bang at home, Korean PC-bang, home PC-bang, LoL PC-bang benefits, Valorant PC-bang, Lost Ark PC-bang, PUBG PC-bang, Diablo IV PC-bang, Mabinogi PC-bang, Throne and Liberty PC-bang, Overwatch 2 PC-bang, FC Online PC-bang, Lineage PC-bang, Korean game benefits, gaming premium",
-    "ogImageAlt": "KR PC ROOM — Korean PC-bang benefits at home",
+    "siteName": "MY PCBANG",
+    "defaultTitle": "MY PCBANG — Korean PC-bang (집피방·지피방) benefits at home",
+    "titleTemplate": "%s | MY PCBANG",
+    "description": "MY PCBANG: Korean home PC-bang service (집피방/지피방). Apply 100% Korean PC-bang benefits on your own PC. LoL, Valorant, Lost Ark, PUBG, Diablo IV, Mabinogi and 40+ titles. Fast Telegram support.",
+    "keywords": "집피방, 지피방, 피시방혜택, home PC-bang, Korean PC-bang at home, jipibang, gipibang, PC-bang benefits, LoL PC-bang, Valorant PC-bang, Lost Ark PC-bang, PUBG PC-bang, Diablo IV PC-bang, Mabinogi PC-bang, Korean game benefits, gaming premium",
+    "ogImageAlt": "MY PCBANG — Korean PC-bang (집피방·지피방) benefits at home",
     "pages": {
       "home": {
         "title": "Korean PC-bang benefits at home",
@@ -34,8 +34,8 @@
     }
   },
   "brand": {
-    "name": "KR PC ROOM",
-    "tagline": "Real PC-bang benefits, right at home"
+    "name": "MY PCBANG",
+    "tagline": "Korean PC-bang benefits at home — 집피방·지피방"
   },
   "nav": {
     "home": "Home",

@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 
 export const runtime = 'edge';
-export const alt = 'KR PC ROOM';
+export const alt = 'MY PCBANG';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -82,7 +82,7 @@ export default async function OG({ params }: { params: { locale: string } }) {
               boxShadow: '0 20px 60px rgba(30,166,255,0.5)'
             }}
           >
-            KR
+            MY
           </div>
           <div
             style={{

@@ -13,7 +13,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-2 font-bold">
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg brand-gradient text-white">
-              <span className="text-xs font-black">KR</span>
+              <span className="text-xs font-black">MY</span>
             </span>
             <span className="text-lg text-fg">{t('brand.name')}</span>
           </div>

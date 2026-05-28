@@ -1,11 +1,11 @@
 {
   "meta": {
-    "siteName": "KR PC ROOM",
-    "defaultTitle": "KR PC ROOM — 在家享受韩国网咖特权",
-    "titleTemplate": "%s | KR PC ROOM",
-    "description": "在您自己的电脑上 100% 应用韩国网咖游戏特权。支持英雄联盟、Valorant、命运方舟、绝地求生、暗黑破坏神 4、玛奇、王座与自由等 40+ 热门韩国游戏。Telegram 快速咨询。",
-    "keywords": "在家网咖, 韩国网咖特权, 家用网咖, 英雄联盟网咖特权, Valorant 网咖, 命运方舟网咖, 绝地求生网咖, 暗黑破坏神 4 网咖, 玛奇网咖, 王座与自由网咖, 守望先锋 2 网咖, FC Online 网咖, 天堂网咖, 韩国游戏特权, 游戏高级特权",
-    "ogImageAlt": "KR PC ROOM — 在家享受韩国网咖特权",
+    "siteName": "MY PCBANG",
+    "defaultTitle": "MY PCBANG — 韩国PC房特权在家享受 (집피방·지피방)",
+    "titleTemplate": "%s | MY PCBANG",
+    "description": "MY PCBANG：韩国正版PC房特权服务（집피방/지피방）。在您自己的电脑上100%享受韩国网咖特权。英雄联盟、Valorant、命运方舟、绝地求生、暗黑破坏神4、玛奇等40+游戏支持。Telegram快速咨询。",
+    "keywords": "집피방, 지피방, 피시방혜택, 韩国PC房特权, 在家网咖, 韩国网咖特权, 家用网咖, 韩国PC房, 英雄联盟网咖特权, Valorant网咖, 命运方舟网咖, 绝地求生网咖, 暗黑破坏神4网咖, 玛奇网咖, 韩国游戏特权",
+    "ogImageAlt": "MY PCBANG — 韩国PC房特权在家享受",
     "pages": {
       "home": {
         "title": "在家享受韩国网咖游戏特权",
@@ -34,8 +34,8 @@
     }
   },
   "brand": {
-    "name": "KR PC ROOM",
-    "tagline": "在家也能享受真正的网咖特权"
+    "name": "MY PCBANG",
+    "tagline": "韩国正版PC房特权在家享受 — 집피방·지피방"
   },
   "nav": {
     "home": "首页",
