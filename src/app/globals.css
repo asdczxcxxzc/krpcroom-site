@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --bg-elev: 248 250 252;
+  --fg: 15 23 42;
+  --muted: 100 116 139;
+  --border: 226 232 240;
+  --brand: 30 166 255;
+  --brand-strong: 0 134 230;
+  --accent: 255 90 20;
+}
+
+.dark {
+  --bg: 8 11 20;
+  --bg-elev: 14 19 34;
+  --fg: 237 242 255;
+  --muted: 148 163 184;
+  --border: 30 41 59;
+  --brand: 72 194 255;
+  --brand-strong: 30 166 255;
+  --accent: 255 122 61;
+}
+
+html,
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-feature-settings: 'ss01', 'cv11';
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
+@layer utilities {
+  .bg-app { background-color: rgb(var(--bg)); }
+  .bg-elev { background-color: rgb(var(--bg-elev)); }
+  .text-fg { color: rgb(var(--fg)); }
+  .text-muted { color: rgb(var(--muted)); }
+  .border-app { border-color: rgb(var(--border)); }
+
+  .brand-gradient {
+    background-image: linear-gradient(135deg, rgb(var(--brand)) 0%, rgb(var(--accent)) 100%);
+  }
+  .text-brand-gradient {
+    background-image: linear-gradient(135deg, rgb(var(--brand)) 0%, rgb(var(--accent)) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .ring-brand { box-shadow: 0 0 0 1px rgba(72,194,255,0.4); }
+
+  .glass {
+    background: color-mix(in srgb, rgb(var(--bg-elev)) 70%, transparent);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+.animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up { animation: fade-in-up 0.28s cubic-bezier(0.22, 1, 0.36, 1); }
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(72,194,255,0.45); }
+  70% { box-shadow: 0 0 0 18px rgba(72,194,255,0); }
+  100% { box-shadow: 0 0 0 0 rgba(72,194,255,0); }
+}
+.animate-pulse-ring { animation: pulse-ring 2s infinite; }
+
+::selection { background: rgb(var(--brand)); color: rgb(var(--bg)); }
