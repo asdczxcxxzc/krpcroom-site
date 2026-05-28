@@ -13,7 +13,8 @@ export async function buildBreadcrumbs(
   const home: Crumb = { name: t('home'), url: absoluteUrl(locale, '') };
   if (pageKey === 'home') return [home];
 
-  const pathMap: Record<typeof pageKey, string> = {
+  type AllKeys = 'home' | 'features' | 'games' | 'guide' | 'pricing' | 'faq';
+  const pathMap: Record<AllKeys, string> = {
     home: '',
     features: '/features',
     games: '/games',
@@ -21,7 +22,7 @@ export async function buildBreadcrumbs(
     pricing: '/pricing',
     faq: '/faq'
   };
-  const labelMap: Record<typeof pageKey, string> = {
+  const labelMap: Record<AllKeys, string> = {
     home: t('home'),
     features: t('features'),
     games: t('games'),
