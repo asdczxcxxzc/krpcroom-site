@@ -58,7 +58,7 @@
   },
   "common": {
     "openTelegram": "Contact on Telegram",
-    "telegramHandle": "@krpcroom",
+    "telegramHandle": "@mypcbang",
     "learnMore": "Learn more",
     "getStarted": "Get started"
   },
@@ -100,7 +100,7 @@
       },
       "support": {
         "title": "24/7 Telegram support",
-        "desc": "Reach us at Telegram @krpcroom any time. Average response under 5 minutes with friendly assistance."
+        "desc": "Reach us at Telegram @mypcbang any time. Average response under 5 minutes with friendly assistance."
       }
     }
   },
@@ -118,7 +118,7 @@
     "steps": {
       "step1": {
         "title": "Get your account",
-        "desc": "Contact us on Telegram @krpcroom and we'll issue your dedicated account credentials."
+        "desc": "Contact us on Telegram @mypcbang and we'll issue your dedicated account credentials."
       },
       "step2": {
         "title": "Pick a game",
@@ -194,14 +194,14 @@
       },
       "q6": {
         "q": "How do I receive the program after paying?",
-        "a": "Contact @krpcroom on Telegram and we'll send you the payment details, installer, and license key."
+        "a": "Contact @mypcbang on Telegram and we'll send you the payment details, installer, and license key."
       }
     }
   },
   "contact": {
     "title": "Get a fast reply on Telegram",
     "subtitle": "Weekdays or weekends — we answer quickly.",
-    "telegramCta": "Open Telegram @krpcroom",
+    "telegramCta": "Open Telegram @mypcbang",
     "responseTime": "Average response time: under 5 minutes"
   },
   "notFound": {

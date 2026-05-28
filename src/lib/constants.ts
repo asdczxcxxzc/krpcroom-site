@@ -1,4 +1,4 @@
-export const TELEGRAM_HANDLE = 'krpcroom';
+export const TELEGRAM_HANDLE = 'mypcbang';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_HANDLE}`;
 
 export type Game = {

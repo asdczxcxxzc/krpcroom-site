@@ -58,7 +58,7 @@
   },
   "common": {
     "openTelegram": "Telegram 咨询",
-    "telegramHandle": "@krpcroom",
+    "telegramHandle": "@mypcbang",
     "learnMore": "了解更多",
     "getStarted": "立即开始"
   },
@@ -100,7 +100,7 @@
       },
       "support": {
         "title": "24/7 Telegram 客服",
-        "desc": "随时在 Telegram @krpcroom 联系我们。承诺平均回复 5 分钟内,服务友好。"
+        "desc": "随时在 Telegram @mypcbang 联系我们。承诺平均回复 5 分钟内,服务友好。"
       }
     }
   },
@@ -118,7 +118,7 @@
     "steps": {
       "step1": {
         "title": "获取账号",
-        "desc": "在 Telegram @krpcroom 联系我们,我们将为您发放专用账号信息。"
+        "desc": "在 Telegram @mypcbang 联系我们,我们将为您发放专用账号信息。"
       },
       "step2": {
         "title": "选择游戏",
@@ -194,14 +194,14 @@
       },
       "q6": {
         "q": "付款后如何获取程序?",
-        "a": "在 Telegram @krpcroom 联系我们,将为您发送付款方式、安装文件与授权码。"
+        "a": "在 Telegram @mypcbang 联系我们,将为您发送付款方式、安装文件与授权码。"
       }
     }
   },
   "contact": {
     "title": "Telegram 快速联系",
     "subtitle": "工作日与周末均会迅速回复。",
-    "telegramCta": "打开 Telegram @krpcroom",
+    "telegramCta": "打开 Telegram @mypcbang",
     "responseTime": "平均回复时间: 5 分钟内"
   },
   "notFound": {

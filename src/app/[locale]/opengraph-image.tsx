@@ -159,7 +159,7 @@ export default async function OG({ params }: { params: { locale: string } }) {
               display: 'flex'
             }}
           >
-            @krpcroom
+            @mypcbang
           </div>
         </div>
       </div>
